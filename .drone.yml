@@ -3,10 +3,8 @@ type: docker
 name: default
 
 steps:
-- name: docker  
-  image: plugins/docker
-  settings:
-    username: arpgalaxy
-    password: Arpgalaxy4316**
-    repo: test
-    tags: latest
+- name: greeting
+  image: alpine
+  commands:
+  - echo hello
+  - echo world
