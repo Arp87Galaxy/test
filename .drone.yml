@@ -10,3 +10,4 @@ steps:
     password: Arpgalaxy4316**
     repo: test
     tags: latest
+    dockerfile: ./Dockerfile
